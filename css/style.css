@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+header{
+    background-color: black;
+    height: 80px;
+    position: fixed;
+    width: 100%;
+}
+
+.cabecalho h1{
+    font-size: 30px;
+    color: rgb(243, 243, 243);
+    height: 10px;
+    display: flex;
+    margin-right: 50px;
+    padding: 20px 0 0 30px;
+}
+
+.info{
+    margin-left: 90rem;
+    word-spacing: 5rem;
+}
+
+.info a{
+    color: rgb(243, 243, 243);
+    font-size: 21px;
+}
+
+.inicio h1.mensagem-inicial{
+    color: #329e32;
+    font-size: 65px;
+}
+
+.inicio{
+    padding: 20rem 0 388px 2.3rem;
+    background: url('https://files.tecnoblog.net/wp-content/uploads/2022/05/titulo-do-eleitor_capa-2_tb.png');
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.inicio h1{
+    font-size: 48px;
+}
+
+.sobre{
+    background-color: #329e32;
+    padding: 4rem 4rem 6rem 4rem;
+}
+
+.sobre h1{
+    text-align: center;
+    padding-bottom: 2rem;
+    font-size: 4.5rem;
+    color: white;
+}
+
+.sobre p{
+    font-size: 1.7rem;
+    color: white;
+}
+
+.requisitos{
+    padding: 4rem 4rem 6rem 4rem;
+    background-color: white;
+}
+
+.requisitos h1{
+    text-align: center;
+    padding-bottom: 2rem;
+    font-size: 4.5rem;
+    color: #329e32;
+}
+
+#li{
+    font-size: 1.7rem;
+    color: #329e32;
+}
+
+.tirar-titulo{
+    background-color: #329e32;
+    padding: 2rem 2rem 15rem 2rem;
+    margin-right: 50%;
+}
+
+.tirar-titulo h1{
+    text-align: center;
+    font-size: 3rem;
+    padding-bottom: 2rem;
+    color: white;
+}
+
+.tirar-titulo h2{
+    font-size: 1.7rem;
+    color: white;
+}
+
+.tirar-titulo li{
+    font-size: 1.7rem;
+    color: white;
+}
+
+section{
+    display: flex;
+}
