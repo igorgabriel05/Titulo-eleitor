@@ -1,20 +1,20 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
 
-body{
+body {
     font-family: 'Poppins', sans-serif;
 }
 
-header{
+header {
     background-color: black;
     height: 80px;
     position: fixed;
     width: 100%;
 }
 
-.cabecalho h1{
+.cabecalho h1 {
     font-size: 30px;
     color: rgb(243, 243, 243);
     height: 10px;
@@ -23,89 +23,147 @@ header{
     padding: 20px 0 0 30px;
 }
 
-.info{
-    margin-left: 90rem;
+.info {
+    margin-left: 92rem;
     word-spacing: 5rem;
 }
 
-.info a{
+
+
+
+.info a {
     color: rgb(243, 243, 243);
     font-size: 21px;
+    text-decoration: none;
 }
 
-.inicio h1.mensagem-inicial{
-    color: #329e32;
+.inicio h1.mensagem-inicial {
+    color: #19b919;
     font-size: 65px;
 }
 
-.inicio{
+.inicio {
     padding: 20rem 0 388px 2.3rem;
     background: url('https://files.tecnoblog.net/wp-content/uploads/2022/05/titulo-do-eleitor_capa-2_tb.png');
     background-repeat: no-repeat;
     background-size: 100%;
 }
 
-.inicio h1{
+.inicio h1 {
     font-size: 48px;
 }
 
-.sobre{
-    background-color: #329e32;
+.sobre {
+    background-color: #19b919;
     padding: 4rem 4rem 6rem 4rem;
 }
 
-.sobre h1{
+.sobre h1 {
     text-align: center;
     padding-bottom: 2rem;
     font-size: 4.5rem;
     color: white;
 }
 
-.sobre p{
+.sobre p {
     font-size: 1.7rem;
     color: white;
 }
 
-.requisitos{
+.requisitos {
     padding: 4rem 4rem 6rem 4rem;
     background-color: white;
 }
 
-.requisitos h1{
+.requisitos h1 {
     text-align: center;
     padding-bottom: 2rem;
     font-size: 4.5rem;
-    color: #329e32;
+    color: #19b919;
 }
 
-#li{
+#li {
     font-size: 1.7rem;
-    color: #329e32;
+    color: #19b919;
 }
 
-.tirar-titulo{
-    background-color: #329e32;
-    padding: 2rem 2rem 15rem 2rem;
-    margin-right: 50%;
+#section1 .box {
+    padding: 2em;
+    color: #ffffff;
 }
 
-.tirar-titulo h1{
+#section1 .box:first-child {
+    background: rgb(0, 171, 240);
+    ;
+}
+
+#section1 .box:first-child h1 {
     text-align: center;
+    padding-bottom: 2rem;
+    font-size: 3rem;
+}
+
+#section1 .box:first-child li {
+    font-size: 1.5rem;
+    padding-bottom: 10px;
+}
+
+#section1 .box:last-child {
+    background: rgb(0, 196, 33);
+    color: black;
+}
+
+#section1 .box:last-child h1 {
     font-size: 3rem;
     padding-bottom: 2rem;
-    color: white;
+    text-align: center;
 }
 
-.tirar-titulo h2{
-    font-size: 1.7rem;
-    color: white;
+#section1 .box:last-child li {
+    font-size: 1.5rem;
+    padding-bottom: 10px;
 }
 
-.tirar-titulo li{
-    font-size: 1.7rem;
+#section1 .box:last-child a {
     color: white;
+    text-decoration: none;
 }
 
-section{
-    display: flex;
+.contato {
+    padding: 2rem 2rem 4.4rem 2rem;
+    background: linear-gradient(62deg, rgb(58, 61, 64) 0%, rgb(24, 23, 25) 100%);
+}
+
+.contato h1 {
+    text-align: center;
+    padding-bottom: 2rem;
+    color: #ffffff;
+    font-size: 2.5rem;
+}
+
+.contato a {
+    color: #ffffff;
+    font-size: 1.8rem;
+    text-decoration: none;
+}
+
+.contato .ref {
+    word-spacing: 5rem; 
+    margin-left: 680px;
+    padding-top: 50px;
+    
+}
+
+@media (min-width: 700px) {
+    .grid {
+        display: grid;
+        grid-template-columns: 1fr repeat(2, minmax(auto, 25em)) 1fr;
+    }
+
+    .box,
+    #main-footer div {
+        grid-column: span 2;
+    }
+
+    
 }
